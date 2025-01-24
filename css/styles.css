@@ -1,0 +1,183 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+}
+
+header.header img{
+    width: 5%;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.top-page 
+{
+    background: url('../Picture/Expo.jpg');
+    background-size: cover;
+    /* height: 80vh; */
+    height: 50vh;
+    /* width: 100%; */
+    padding: 5%;
+}
+
+
+/* page de bienvenue */
+
+.big-title {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 100;
+    color: white;
+    font-size: 60px;
+    /* padTding: 25px 50px; */
+    text-align: left;
+    /* font-weight: 100; */
+}
+/* Menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 5%;
+}
+
+nav.nav li {
+    color: white;
+}
+
+nav a{
+    position: relative;
+    font-size:1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.header-list {
+    font-size: 25px;
+}
+
+
+nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width:100%;
+    height: 4px;
+    background: white;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.nav :hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+
+/* Sectionh h2 */
+
+.h2-title {
+    text-align: left;
+}
+
+.self-introduction {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin-bottom: 4%;
+}
+
+.profil-picture {
+    /* width: 50%; */
+    width: 200px;
+    height: 100%;
+    size: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    object-fit: cover;
+}
+
+.introduction-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -1%;
+    position: relative;
+    text-align: justify;
+    color:black;
+    max-height: 100%;
+    max-width: 100%;
+    /* font-size: 20px; */
+}
+
+/* Sectionh h3 */
+
+.passion-introduction {
+    display: flex;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+.activity-picture {
+    /* width: 50%; */
+    width: 200px;
+    height: 100%;
+    size: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    object-fit: cover;
+
+    
+}
+
+
+.passion-text {
+    margin-left: 5%;
+    margin-top: -1%;
+    position: relative;
+    text-align: justify;
+    color:black;
+    max-height: 100%;
+    max-width: 100%;
+    /* font-size: 20px; */
+}
+
+/* Pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 5% 5%; */
+    font-size: 80%;
+    background: rgb(188, 184, 184);
+    background-size: 100%;
+}
+
+footer a.cgu{
+    text-decoration: none;
+    color: black;
+    margin-right: 2%;
+}
+
+footer p.copyright{
+    margin-left: 2%;
+}
