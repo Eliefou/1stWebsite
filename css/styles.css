@@ -5,6 +5,15 @@ html {
 
 body{
     margin: 0 auto;
+    /* background-color: gray; */
+    background: url('../Picture/fond_tech.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 750px;
+    box-sizing: 5px;
+}
+.body-backgrood{
+    background-color: white;
 }
 
 header.header img{
@@ -143,9 +152,7 @@ h1 {
     size: 50%;
     margin-left: 5%;
     margin-top: 5%;
-    object-fit: cover;
-
-    
+    object-fit: cover;  
 }
 
 
@@ -160,7 +167,15 @@ h1 {
     /* font-size: 20px; */
 }
 
+h4{
+    margin-left: 5%;
+}
+
 /* Pied de page */
+
+.ennding-page {
+    margin-top: 2%;
+}
 
 footer {
     display: flex;
@@ -181,3 +196,5 @@ footer a.cgu{
 footer p.copyright{
     margin-left: 2%;
 }
+
+
