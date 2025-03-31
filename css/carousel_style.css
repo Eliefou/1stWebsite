@@ -39,6 +39,24 @@
     -webkit-text-stroke-color: black;
   }
 
+.Expected {
+    position: absolute;
+    color:red;
+    font-size: 90px;
+    padding: 15px;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+    -webkit-transform: rotate(-20deg);
+    /* -moz-transform: rotate(-180deg); */
+}
+
+.Expected
+{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
 .slide-index {
     color: #ffffff;
     font-size: 13px;
